@@ -34,9 +34,9 @@ XPalm = "6b523e1e-d512-416c-8e51-a8fbef0064e7"
 
 [sources]
 GPUSelect = {url = "https://github.com/SimonDanisch/GPUSelect.jl", rev = "main"}
-Lava = {url = "https://github.com/SimonDanisch/Lava.jl", rev = "sd/nvidia"}
 Hikari = {url = "https://github.com/JuliaGraphics/Hikari.jl", rev = "sd/vk-hw-accel"}
-Raycore = {url = "https://github.com/JuliaGeometry/Raycore.jl", rev = "master"}
+Lava = {url = "https://github.com/asinghvi17/Lava.jl", rev = "sd/nvidia-macos"}
+Raycore = {url = "https://github.com/asinghvi17/Raycore.jl", rev = "macos-fixpoint-refit"}
 MeshIO = {url = "https://github.com/JuliaIO/MeshIO.jl.git", rev = "sd/gltf-glb"}
 Makie = {url = "https://github.com/MakieOrg/Makie.jl.git", rev = "sd/lava", subdir = "Makie"}
 GLMakie = {url = "https://github.com/MakieOrg/Makie.jl.git", rev = "sd/lava", subdir = "GLMakie"}
